@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet"href="styles.css">
+    <style>
+        header{
+         height: 50px;
+         margin: 20px 0px;
+         
+        } 
+        .head{
+         display:flex;
+         justify-content: space-between;
+         
+        }  
+        .head,li{
+         
+         list-style-type: none;
+         padding: 20px;
+        }
+        .head,li,a{
+         text-decoration: none;
+         
+        }
+        
+        #BANNER-image{
+         width: 100%;
+         height: 100vh;
+        }
+        
+     .myarticle{
+         display: flex;
+         justify-content: center;
+     }
+     .column1{
+         background-color: indianred;
+         color: white;
+         width: 50%;
+     }
+     .contact{
+         display: flex;
+          
+     }
+     
+     
+     .foot {
+         display: flex;
+         background-color: ghostwhite;
+       }
+     
+       .column{
+         text-align: center;
+
+       }
+       
+     
+     
+     </style>        
+     
+</head>
+
+<body>
+
+    <!-- head -->
+    <header>
+        <ul class="head">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html"> ABOUT ME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>            
+        </ul>
+    </header>
+    <!-- MY BANNER PICTURE -->
+    <section>
+        <nav>
+            <img id="BANNER-image"src="image/bb2.jpg" />
+            <div class="text">
+                <h2>WELCOME TO TRACY GILR WEBSITE</h2>
+                <p>SUMMER 2024</p>
+ 
+            </div>
+
+        </nav>
+    </section>
+
+
+
+    <!-- articie section -->
+     <section>
+        <div class="myarticle">
+            <div style="text-align: center;" class="column1">
+                <h1 style="text-align: center;">anyika chimebuka francess T</h1>
+                <h3>i love myself </h3>
+            </div>
+            <div style="background-color: indigo;width: 50%;"class="column1">
+                    <h2 style="text-align: center;">MY PERSONAL SKILL</h2>
+                    <ul>
+                    <li style="text-align: center;">HTML</li>
+                    <li style="text-align: center;" >SCRATCH</li> 
+                    <li style="text-align: center;">CSS </li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact me -->
+    <section>
+       <h1 style='text-align:center;'>CONTACT ME</h1>
+       
+        <div class="contact">
+            <!-- <h1>lagos</h1> -->
+            <div style="width: 50%; height: 50%; padding: 5.5px; text-align: center;color: black"class="columnthree">
+                capital:ikeja<br>
+                president:bola ahmed<br>
+                governor:babajide sanwo-olu<br>
+            </div>
+              <div style="width: 50%; height: 50%; text-align: center;color: black"class="columnfour">
+                <!-- <h1>hello</h1> -->
+                <img src="image/in.jpg"\>
+            </div>
+        </div>
+    </section>
+
+    
+     
+     <!-- footer -->
+     <footer>
+        <div class="foot">
+            <div class="column">
+                <p>shine bright like dimond</p>  
+                <img src="image/gu.png">           
+            </div>
+            <div class="column">
+                <h4> QUICK LINKS</h4>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT ME</a></li>
+                    <li> <a href="gallary.html">MY GALLERY</a></li>
+                    <li> <a href="contact.html">CONTACT ME</a></li>
+                    
+                </ul>
+            </div>
+            <div class="column">
+                <h5> send message</h5>
+                <form>
+                    <textarea name="send" placeholder="send" required></textarea><br>
+
+                    <button id="send" type="submit">send</button>
+                </form>
+            </div>
+        </div>
+     </footer>
+     <!-- mini footer -->
+     <div class="minifooter">
+        <p>DESIGNED BY ANYIKA CHIMEBUKA FRANCESS T 2024</p>
+     </div> 
+
+    
+</body>
+</html>
